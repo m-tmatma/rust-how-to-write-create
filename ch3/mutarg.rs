@@ -1,5 +1,5 @@
 fn x2(arg: &mut i32) {
-    *arg = 2;
+    *arg = *arg * 2;
 }
 
 fn main() {
