@@ -1,6 +1,6 @@
-fn gen_message() -> &str {
+fn gen_message() -> String {
     let msg = String::from("過ちを見過ごし人は美しい");
-    return &msg;
+    return msg;
 }
 
 fn main() {
